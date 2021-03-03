@@ -50,12 +50,12 @@ function func () {
   personxI = document.getElementById('personx').value
   personxII = document.getElementById('personx-two').value
   personxIII = document.getElementById('personx-three').value
-  
+
   // female table section
   yy = document.getElementById('tabley').value
   y2 = document.getElementById('tabley-two').value
   y3 = document.getElementById('tabley-three').value
-  
+
   ageyy = document.getElementById('agey').value
   ageyy = parseInt(ageyy)
   agey2 = document.getElementById('agey-two').value
@@ -92,7 +92,7 @@ function func () {
   }
 
   // x3
-   if (personxIII === personyI && Math.abs(agex3 - ageyy) <= 2) {
+  if (personxIII === personyI && Math.abs(agex3 - ageyy) <= 2) {
     document.getElementById('paragraph-three').innerHTML = x3 + ' = ' + yy
   } else if (personxIII === personyII && Math.abs(agex3 - agey2) <= 2) {
     document.getElementById('paragraph-three').innerHTML = x3 + ' = ' + y2
@@ -103,7 +103,6 @@ function func () {
   }
 
   // female "if" statement
-
   // yy
   // if personality xx and yy is false, move to xx and y2, if false, move to xx and y3, if all is false, display "female-paragraph".
   if ((personyI !== personxI || Math.abs(ageyy - agexx) > 2) && (personyI !== personxII || Math.abs(ageyy - agex2) > 2) && (personyI !== personxIII || Math.abs(ageyy - agex3) > 2)) {
