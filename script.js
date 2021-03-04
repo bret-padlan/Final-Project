@@ -66,6 +66,7 @@ function func () {
   personyII = document.getElementById('persony-two').value
   personyIII = document.getElementById('persony-three').value
 
+  // Age gap "while loop"
   while(agexx >= 13 && agex2 >= 13 && agex3 >= 13 && ageyy >= 13 && agey2 >= 13 && agey3 >= 13) {
 
     // male "if" statement
