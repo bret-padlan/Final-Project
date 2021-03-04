@@ -114,7 +114,7 @@ function func () {
   if ((personyII !== personxI || Math.abs(agey2 - agexx) > 2) && (personyII !== personxII || Math.abs(agey2 - agex2) > 2) && (personyII !== personxIII || Math.abs(agey2 - agex3) > 2)) {
     document.getElementById('female-paragraph-two').innerHTML = 'No match for ' + y2 + '. NOTE: please check age gap or use a similar personality'
   } else {
-   document.getElementById('female-paragraph-two').innerHTML = ''
+    document.getElementById('female-paragraph-two').innerHTML = ''
   }
 
   // y3
