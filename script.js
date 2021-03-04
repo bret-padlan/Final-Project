@@ -1,4 +1,3 @@
-
 document.getElementById('button').addEventListener('click', func)
 
 let xx = ''
@@ -131,7 +130,7 @@ function func () {
     // Calculate avarage of the age of the three males
     averagex = totalxAge / numx
   }
-  document.getElementById('average').innerHTML = 'The average age for male based on the entered ages is ' + averagex
+  document.getElementById('average').innerHTML = 'The average age for male based on the entered ages is ' + Math.round(averagex)
 
   // Calculate total age for female
   totalyAge = ageyy + agey2 + agey3
@@ -139,5 +138,5 @@ function func () {
     // Calculate avarage of the age of the three females
     averagey = totalyAge / numy
   }
-  document.getElementById('average-two').innerHTML = 'The average age for female based on the entered ages is ' + averagey
+  document.getElementById('average-two').innerHTML = 'The average age for female based on the entered ages is ' + Math.round(averagey)
 }
